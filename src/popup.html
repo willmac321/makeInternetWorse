@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Polyglot Shuffle</h1>
+
+  <label class="row toggle">
+    <span>Enabled</span>
+    <input type="checkbox" id="enabled">
+  </label>
+
+  <label class="row toggle">
+    <span>Chess gate on links</span>
+    <input type="checkbox" id="chessGate">
+  </label>
+
+  <label class="block">
+    <span>Swap rate: <strong id="rateValue"></strong>%</span>
+    <input type="range" id="rate" min="1" max="100" step="1">
+  </label>
+
+  <fieldset>
+    <legend>Languages</legend>
+    <div id="languages"></div>
+  </fieldset>
+
+  <button id="reshuffle">Reshuffle this page</button>
+
+  <script src="dictionary.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

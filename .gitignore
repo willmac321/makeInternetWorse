@@ -1,0 +1,11 @@
+node_modules/
+dist/
+web-ext-artifacts/
+.web-extension-id
+*.xpi
+*.zip
+.DS_Store
+
+# editor / tool logs
+*.log
+/~/

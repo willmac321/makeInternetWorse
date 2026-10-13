@@ -1,0 +1,16 @@
+{
+  "name": "polyglot-shuffle",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Firefox extension that swaps words into other languages and guards links with chess puzzles.",
+  "scripts": {
+    "start": "web-ext run --source-dir src",
+    "lint": "web-ext lint --source-dir src",
+    "build": "web-ext build --source-dir src --artifacts-dir dist --overwrite-dest",
+    "test": "node --test tools/test.js",
+    "puzzles": "node tools/generate-puzzles.js"
+  },
+  "devDependencies": {
+    "web-ext": "^10.7.0"
+  }
+}
