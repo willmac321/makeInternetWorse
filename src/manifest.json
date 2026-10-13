@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Polyglot Shuffle",
+  "name": "makeInternetWorse",
   "version": "1.2.0",
   "description": "Randomly swaps words on web pages into other languages, and makes you win a chess puzzle to follow a link.",
   "icons": {
@@ -12,7 +12,7 @@
     "scripting"
   ],
   "action": {
-    "default_title": "Polyglot Shuffle",
+    "default_title": "makeInternetWorse",
     "default_popup": "popup.html",
     "default_icon": "icons/icon.svg"
   },
@@ -36,7 +36,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "polyglot-shuffle@loblollysoftware.com",
+      "id": "makeinternetworse@loblollysoftware.com",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": [

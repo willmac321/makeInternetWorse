@@ -9,7 +9,7 @@
     "SCRIPT", "STYLE", "NOSCRIPT", "TEXTAREA", "INPUT", "SELECT", "OPTION",
     "CODE", "PRE", "KBD", "SAMP", "SVG", "MATH", "CANVAS", "IFRAME", "TITLE",
   ]);
-  const SWAP_CLASS = "polyglot-shuffle-word";
+  const SWAP_CLASS = "make-internet-worse-word";
   const WORD_RE = /[A-Za-z]+(?:['’][A-Za-z]+)?/g;
   const LANG_NAMES = Object.fromEntries(LANGUAGES.map((l) => [l.code, l.name]));
 

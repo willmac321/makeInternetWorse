@@ -5,8 +5,8 @@ Thanks for helping out! Bug reports, new words, new languages, puzzles and fixes
 ## Getting set up
 
 ```sh
-git clone <this repo>
-cd polyglot-shuffle
+git clone https://github.com/willmac321/makeInternetWorse.git
+cd makeInternetWorse
 npm install
 npm start      # launches Firefox with the extension; edits in src/ reload automatically
 ```

@@ -1,4 +1,4 @@
-# Polyglot Shuffle
+# makeInternetWorse
 
 A Firefox extension that makes the web a little stranger:
 
@@ -23,7 +23,7 @@ A Firefox extension that makes the web a little stranger:
 
 ### From source (temporary, for trying it out)
 
-1. Clone this repo.
+1. Clone this repo: `git clone https://github.com/willmac321/makeInternetWorse.git`
 2. In Firefox, open `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on…** and choose `src/manifest.json`.
 
@@ -64,7 +64,7 @@ npm install        # installs web-ext (Mozilla's extension tool)
 npm start          # opens a fresh Firefox profile with the extension loaded, reloads on save
 npm test           # chess engine, puzzle and dictionary checks
 npm run lint       # the same checks addons.mozilla.org runs on upload
-npm run build      # creates dist/polyglot_shuffle-<version>.zip
+npm run build      # creates dist/makeinternetworse-<version>.zip
 ```
 
 ### Project layout
@@ -103,7 +103,7 @@ Anyone can find and install it from AMO, and Firefox auto-updates it.
    ```
    Lint must report **0 errors**. Fix any warnings too, since reviewers see them.
 3. **Sign in** at the [Add-on Developer Hub](https://addons.mozilla.org/developers/) with a Firefox account.
-4. Click **Submit a New Add-on**, choose **On this site**, and upload `dist/polyglot_shuffle-<version>.zip`.
+4. Click **Submit a New Add-on**, choose **On this site**, and upload `dist/makeinternetworse-<version>.zip`.
 5. **Platforms:** choose Firefox. Also tick Firefox for Android only if you've tested it there.
 6. **Source code:** answer **No**. Nothing in `src/` is minified or bundled, so reviewers can read it as-is.
 7. **Listing details:** name, summary, a category (e.g. *Fun*), a license, and screenshots (`docs/chess-gate.png` works).
@@ -112,7 +112,7 @@ Anyone can find and install it from AMO, and Firefox auto-updates it.
 
 **To release an update:** bump the version, rebuild, then go to the Developer Hub, open the add-on, and choose **Upload New Version**.
 
-The add-on ID `polyglot-shuffle@loblollysoftware.com` in `manifest.json` identifies this extension on AMO forever. Don't change it after the first upload.
+The add-on ID `makeinternetworse@loblollysoftware.com` in `manifest.json` identifies this extension on AMO forever. Don't change it after the first upload.
 
 ### Option B: Self-distribute a signed `.xpi`
 
